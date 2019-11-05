@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MMC</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+
+
+
+    <!-- ====Animate css==== -->
+    <!--<link rel="stylesheet" href="css/owl.carousel.min.css">-->
+    <!--<link rel="stylesheet" href="css/owl.theme.default.min.css">-->
+    <!--<link rel="stylesheet" href="css/animate.css">-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-sm navbar-light sticky-top" id="mainNav">
+  <div class="container-fluid padding-zero">
+    <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" alt="logo">
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+
+    <ul class="navbar-nav ml-auto navbar-left">
+        <li class="nav-item">
+            <a class="nav-link" href="job-details.html">
+                <i class="fas fa-plus"></i>CREATE
+            </a>
+            <!--<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">-->
+                <!--<a class="dropdown-item" href="#"><i class="fas fa-hat-wizard"></i>Menu 1</a>-->
+                <!--<a class="dropdown-item" href="#"><i class="fas fa-hat-wizard"></i>Menu 1</a>-->
+                <!--<a class="dropdown-item" href="#"><i class="fas fa-hat-wizard"></i>Menu 1</a>-->
+                <!--<a class="dropdown-item" href="#"><i class="fas fa-hat-wizard"></i>Menu 1</a>-->
+                <!--<a class="dropdown-item" href="#"><i class="fas fa-hat-wizard"></i>Menu 1</a>-->
+            <!--</div>-->
+        </li>
+        <form class="form-inline">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </ul>
+
+      <ul class="navbar-nav ml-auto navbar-right">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Weaver Innovations
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"><i class="fas fa-hat-wizard"></i>Menu 1</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-hat-wizard"></i>Menu 1</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-hat-wizard"></i>Menu 1</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-hat-wizard"></i>Menu 1</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-hat-wizard"></i>Menu 1</a>
+          </div>
+          </li>
+
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-bell"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="far fa-smile"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-question-circle"></i></a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<section class="main-body-area">
+  <div class="container-fluid">
+    <div class="row">
+        <!--Main Body Left Side Start-->
+        <div class="padding-zero">
+            <div class="main-left-side left-menubar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i>Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="candidate.html"><i class="far fa-file-powerpoint"></i>Candidates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="job.html"><i class="fas fa-briefcase"></i>Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html"><i class="fas fa-users"></i>Team</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!--Main Body Left Side End-->
+
+        <!--Main Body Right Side Start-->
+        <div class="col-sm-11 offset-sm-1 padding-zero">
+            <div class="main-body">
+                <div class="members-container">
+                    <div class="head">
+                        <h3>Team Members</h3>
+                        <div class="pull-right">
+                            <a href="" class="btn btn-temp" data-toggle="modal" data-target="#addNewMember"><i class="fas fa-plus"></i> Add New Team Member</a>
+                        </div>
+                    </div>
+                    <hr style="border: 1px solid;">
+                    <div class="content">
+                        <div class="row" style="margin-right:0;">
+                            <div class="col-md-12">
+                                <div>
+                                    <!--Candidate Card-->
+                                    <div class="jobs-single-box candidate-list">
+                                        <div class="jobs-top shadow team-member-border">
+                                            <div class="j-left">
+                                                <img class="candidate-img" src="img/user/1.png" alt="user">
+                                                <div class="candidate-name">
+                                                    <h5 class="jobs-title color-bold font-bold">Mahtasim Rahman<span class="color-normal">Back End Developer <i class="fa fa-circle" style="font-size:8px;" aria-hidden="true"></i> Company Name</span></h5>
+                                                </div>
+                                            </div>
+                                            <div class="j-right">
+                                                <a href="#" class="btn btn-white btn-sm" data-toggle="modal" data-target="#editMember"><i class="fa fa-edit"></i></a>
+                                                <a href="#" class="btn btn-white btn-sm" data-toggle="modal" data-target="#deleteMember"><i class="fa fa-trash"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Candidate Card End -->
+                                    <!--Candidate Card-->
+                                    <div class="jobs-single-box candidate-list">
+                                        <div class="jobs-top shadow team-member-border">
+                                            <div class="j-left">
+                                                <img class="candidate-img" src="img/user/1.png" alt="user">
+                                                <div class="candidate-name">
+                                                    <h5 class="jobs-title color-bold font-bold">Mahtasim Rahman<span class="color-normal">Back End Developer <i class="fa fa-circle" style="font-size:8px;" aria-hidden="true"></i> Company Name</span></h5>
+                                                </div>
+                                            </div>
+                                            <div class="j-right">
+                                                <a href="#" class="btn btn-white btn-sm" data-toggle="modal" data-target="#editMember"><i class="fa fa-edit"></i></a>
+                                                <a href="#" class="btn btn-white btn-sm" data-toggle="modal" data-target="#deleteMember"><i class="fa fa-trash"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Candidate Card End -->
+                                    <!--Candidate Card-->
+                                    <div class="jobs-single-box candidate-list">
+                                        <div class="jobs-top shadow team-member-border">
+                                            <div class="j-left">
+                                                <img class="candidate-img" src="img/user/1.png" alt="user">
+                                                <div class="candidate-name">
+                                                    <h5 class="jobs-title color-bold font-bold">Mahtasim Rahman<span class="color-normal">Back End Developer <i class="fa fa-circle" style="font-size:8px;" aria-hidden="true"></i> Company Name</span></h5>
+                                                </div>
+                                            </div>
+                                            <div class="j-right">
+                                                <a href="#" class="btn btn-white btn-sm" data-toggle="modal" data-target="#editMember"><i class="fa fa-edit"></i></a>
+                                                <a href="#" class="btn btn-white btn-sm" data-toggle="modal" data-target="#deleteMember"><i class="fa fa-trash"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Candidate Card End -->
+                                    <!--Candidate Card-->
+                                    <div class="jobs-single-box candidate-list">
+                                        <div class="jobs-top shadow team-member-border">
+                                            <div class="j-left">
+                                                <img class="candidate-img" src="img/user/1.png" alt="user">
+                                                <div class="candidate-name">
+                                                    <h5 class="jobs-title color-bold font-bold">Mahtasim Rahman<span class="color-normal">Back End Developer <i class="fa fa-circle" style="font-size:8px;" aria-hidden="true"></i> Company Name</span></h5>
+                                                </div>
+                                            </div>
+                                            <div class="j-right">
+                                                <a href="#" class="btn btn-white btn-sm" data-toggle="modal" data-target="#editMember"><i class="fa fa-edit"></i></a>
+                                                <a href="#" class="btn btn-white btn-sm" data-toggle="modal" data-target="#deleteMember"><i class="fa fa-trash"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Candidate Card End -->
+                                    <!--Candidate Card-->
+                                    <div class="jobs-single-box candidate-list">
+                                        <div class="jobs-top shadow team-member-border">
+                                            <div class="j-left">
+                                                <img class="candidate-img" src="img/user/1.png" alt="user">
+                                                <div class="candidate-name">
+                                                    <h5 class="jobs-title color-bold font-bold">Mahtasim Rahman<span class="color-normal">Back End Developer <i class="fa fa-circle" style="font-size:8px;" aria-hidden="true"></i> Company Name</span></h5>
+                                                </div>
+                                            </div>
+                                            <div class="j-right">
+                                                <a href="#" class="btn btn-white btn-sm" data-toggle="modal" data-target="#editMember"><i class="fa fa-edit"></i></a>
+                                                <a href="#" class="btn btn-white btn-sm" data-toggle="modal" data-target="#deleteMember"><i class="fa fa-trash"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Candidate Card End -->
+                                    <!--Candidate Card-->
+                                    <div class="jobs-single-box candidate-list">
+                                        <div class="jobs-top shadow team-member-border">
+                                            <div class="j-left">
+                                                <img class="candidate-img" src="img/user/1.png" alt="user">
+                                                <div class="candidate-name">
+                                                    <h5 class="jobs-title color-bold font-bold">Mahtasim Rahman<span class="color-normal">Back End Developer <i class="fa fa-circle" style="font-size:8px;" aria-hidden="true"></i> Company Name</span></h5>
+                                                </div>
+                                            </div>
+                                            <div class="j-right">
+                                                <a href="#" class="btn btn-white btn-sm" data-toggle="modal" data-target="#editMember"><i class="fa fa-edit"></i></a>
+                                                <a href="#" class="btn btn-white btn-sm" data-toggle="modal" data-target="#deleteMember"><i class="fa fa-trash"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Candidate Card End -->                
+                                </div>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Main Body Right Side End-->
+
+        <div class="modal" id="addNewMember" tabindex="-1" role="dialog">
+            <div class="modal-dialog width-modal" role="document">
+                <div class="modal-content non-transparent-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">New Team Member</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-body-margin">
+                            <div class="row">
+                                <label class="add-label">Send Invitation By Email</label> 
+                                <div class="col-md-10">
+                                    <div class="form-group">                                                        
+                                        <input type="email" placeholder="Enter email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <button type="button" class="btn btn-temp">Invite</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="add-label">Send Invitation By Phone Number</label> 
+                                <div class="col-md-10">
+                                    <div class="form-group">                                                        
+                                        <input type="text" placeholder="Enter Phone Number" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <button type="button" class="btn btn-temp">Invite</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="deleteMember" tabindex="-1" role="dialog">
+            <div class="modal-dialog width-modal" role="document">
+                <div class="modal-content non-transparent-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Delete Team Member</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-body-margin">
+                            <div class="row edit-member-row">                                                
+                                <div class="project-people team-member-ico edit-member-image">
+                                    <a href=""><img alt="image" class="candidate-img" src="img/user/1.png"></a>
+                                </div>
+                                <div class="project-title edit-member-text">
+                                    <a href="profile.html">Mahatasim Rahman</a>
+                                    <br/>
+                                    <small>Administrator <i class="fa fa-circle"></i> mahatasim@weaverbd.com</small>
+                                </div>
+                            </div>
+                            <div class="row edit-member-row" style="margin-top:10px;">
+                                <h4>Are You Sure You want to Delete Mahatasim Rahman?</h4>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-temp" data-dismiss="modal">No</button>
+                        <button type="button" class="btn btn-temp">Yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal" id="editMember" tabindex="-1" role="dialog">
+            <div class="modal-dialog width-modal" role="document">
+                <div class="modal-content non-transparent-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Edit Team Member</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-body-margin" style="margin: 15px 30px;">
+                            <div class="row edit-member-row">                                                
+                                <div class="project-people team-member-ico edit-member-image">
+                                    <a href=""><img alt="image" class="candidate-img" src="img/user/1.png"></a>
+                                </div>
+                                <div class="project-title edit-member-text">
+                                    <a href="profile.html">Mahatasim Rahman</a>
+                                    <br/>
+                                    <small>Administrator <i class="fa fa-circle"></i> mahatasim@weaverbd.com</small>
+                                </div>
+                            </div>
+                            <div class="row edit-member-row" style="margin-top:10px;">
+                                <div id="profile-action">
+                                    <h5>Set Team Role</h5>
+                                    <div id="area">                                                        
+                                        <div class="checkbox">
+                                            <input id="checkbox1" type="checkbox" checked="">
+                                            <label for="checkbox1">
+                                                Administrator
+                                            </label>
+                                            <input id="checkbox2" type="checkbox" checked="">
+                                            <label for="checkbox2">
+                                                Hiring Manager
+                                            </label>
+                                            <input id="checkbox3" type="checkbox" checked="">
+                                            <label for="checkbox3">
+                                                Interviewer
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        
+                            <!-- Modal Contents -->
+
+                            <div class="modal inmodal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h5 class="modal-title">New Team Member</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <label style="padding-left:15px;">Send Invitation By Email</label> 
+                                                <div class="col-md-10">
+                                                    <div class="form-group">                                                        
+                                                        <input type="email" placeholder="Enter email" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <button type="button" class="btn btn-primary">Invite</button>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <label style="padding-left:15px;">Send Invitation By Phone Number</label> 
+                                                <div class="col-md-10">
+                                                    <div class="form-group">                                                        
+                                                        <input type="text" placeholder="Enter Phone Number" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <button type="button" class="btn btn-primary">Invite</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal inmodal fade" id="editMember" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h5 class="modal-title">Edit Team Member</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row edit-member-row">                                                
+                                                <div class="project-people team-member-ico edit-member-image">
+                                                    <a href=""><img alt="image" class="rounded-circle" src="img/a3.jpg"></a>
+                                                </div>
+                                                <div class="project-title edit-member-text">
+                                                    <a href="profile.html">Mahatasim Rahman</a>
+                                                    <br/>
+                                                    <small>Administrator <i class="fa fa-circle"></i> mahatasim@weaverbd.com</small>
+                                                </div>
+                                            </div>
+                                            <div class="row edit-member-row" style="margin-top:10px;">
+                                                <div id="profile-action">
+                                                    <h4>Set Team Role</h4>
+                                                    <div id="area">                                                        
+                                                        <div class="checkbox">
+                                                            <input id="checkbox1" type="checkbox" checked="">
+                                                            <label for="checkbox1">
+                                                                Administrator
+                                                            </label>
+                                                            <input id="checkbox2" type="checkbox" checked="">
+                                                            <label for="checkbox2">
+                                                                Hiring Manager
+                                                            </label>
+                                                            <input id="checkbox3" type="checkbox" checked="">
+                                                            <label for="checkbox3">
+                                                                Interviewer
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal inmodal fade" id="deleteMember" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h5 class="modal-title">Delete Team Member</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row edit-member-row">                                                
+                                                <div class="project-people team-member-ico edit-member-image">
+                                                    <a href=""><img alt="image" class="rounded-circle" src="img/a3.jpg"></a>
+                                                </div>
+                                                <div class="project-title edit-member-text">
+                                                    <a href="profile.html">Mahatasim Rahman</a>
+                                                    <br/>
+                                                    <small>Administrator <i class="fa fa-circle"></i> mahatasim@weaverbd.com</small>
+                                                </div>
+                                            </div>
+                                            <div class="row edit-member-row" style="margin-top:10px;">
+                                                <h4>Are You Sure You want to Delete Mahatasim Rahman?</h4>
+                                                <div class="pull-right" style="margin-left:60%;">
+                                                    <a href="" class="btn btn-md btn-info">Yes</a>
+                                                    <a href="" class="btn btn-md btn-danger">No</a>
+                                                </div>
+                                                
+                                            </div>  
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Ends -->
+
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<!--<script src="vendor/jquery/jquery.slim.min.js"></script>-->
+<script src="vendor/jquery/jquery.popper.min.js"></script>
+<script src="vendor/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<!--<script src="js/owl.carousel.min.js"></script>-->
+<!--<script src="vendor/jquery-easing/jquery.easing.min.js"></script>-->
+
+<!-- Custom scripts for this template -->
+<script src="js/active.js"></script>
+
+</body>
+
+</html>
