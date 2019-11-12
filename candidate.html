@@ -99,16 +99,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html"><i class="fas fa-home"></i>Home</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="candidate.html"><i class="far fa-file-powerpoint"></i>Candidates</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="job.html"><i class="fas fa-briefcase"></i>Jobs</a>
                     </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="candidate.html"><i class="fa fa-user-circle"></i>Candidates</a>
+                    </li>                    
                     <li class="nav-item">
                         <a class="nav-link" href="team.html"><i class="fas fa-users"></i>Team</a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -126,8 +125,8 @@
                                         <div class="form-group"><input type="text" placeholder="Serach By Keyword" class="form-control"></div>
                                         <p><i class="fa fa-filter"></i> Filter Option</p>
                                         <div class="box">
-                                            <label class="col-sm-12 col-form-label">By Active Jos</label>
-                                            <hr>
+                                            <label class="col-sm-12 col-form-label">By Active Jobs</label>
+                                            <hr class="candidate-filter-hr">
                                             <div class="col-sm-12">
                                                 <div><label> <input type="checkbox" value=""> <i></i> Back-end Developer </label></div>
                                                 <div><label> <input type="checkbox" value=""> <i></i> Front-end Developer </label></div>
@@ -135,17 +134,19 @@
                                             </div>
                                         </div>
                                         <div class="box">
-                                            <label class="col-sm-12 col-form-label">By Active Jos</label>
-                                            <hr>
+                                            <label class="col-sm-12 col-form-label">By Pipeline Stages</label>
+                                            <hr class="candidate-filter-hr">
                                             <div class="col-sm-12">
                                                 <div><label> <input type="checkbox" value=""> <i></i> Applied </label></div>
                                                 <div><label> <input type="checkbox" value=""> <i></i> Not Reviewed </label></div>
                                                 <div><label> <input type="checkbox" value=""> <i></i> Passed </label></div>
+                                                <div><label> <input type="checkbox" value=""> <i></i> Tagged </label></div>
+                                                <div><label> <input type="checkbox" value=""> <i></i> Rejected </label></div>
                                             </div>
                                         </div>
                                         <div class="box">
                                             <label class="col-sm-12 col-form-label">By Basic Criteria</label>
-                                            <hr>
+                                            <hr class="candidate-filter-hr">
                                             <div class="col-sm-12">
                                                     <select class="form-control m-b" name="account">
                                                         <option>Job Title</option>
@@ -789,11 +790,7 @@
 
                                                 </div>
 
-                                                <div class="bottom-bar pos-absolute">
-                                                    <button>Select</button>
-                                                    <button>Reject</button>
-                                                    <button>Tagged</button>
-                                                </div>
+
 
                                             </div>
                                             <!--Right Part End-->

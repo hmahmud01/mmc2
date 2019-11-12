@@ -1437,7 +1437,7 @@ ul.navbar-left a > i {
 }
 .candidate-details-right-part .candidate-info-container .can-tab-left .tab-content, .candidate-details-right-part .candidate-info-container .can-tab-right .tab-content{
   background-color: #fff;
-  height: 348px;
+  height: 360px;
   overflow-y: scroll;
   overflow-x: hidden;
   padding: 16px 20px;
@@ -1494,7 +1494,7 @@ ul.navbar-left a > i {
 }
 
 .box {
-  border: 1px solid;
+  border: 2px solid gray;
   border-radius: 3px;
   margin: 10px 0;
 }
@@ -1794,5 +1794,21 @@ ul.navbar-left a > i {
   .right {
   left: 0%;
   }
+}
+
+.candidate-filter-hr{
+  margin-top: 0;
+  border: 1px solid gray;
+}
+
+.sample-headline{
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.sample-submit{
+  color: #000;
+  border: 1px solid gray;
+  border-radius: 0;
 }
 
