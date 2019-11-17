@@ -562,6 +562,11 @@ ul.navbar-left a > i {
   font-size: 21px;
   /* line-height: 22px; */
 }
+
+.jobs-top .j-right a.share {
+  font-size: 21px;
+  /* line-height: 22px; */
+}
 .jobs-top .j-right .j-edit-opt, .job-details-top-right-part .j-edit-opt.dropdown {
   border: 1px solid #D7DDE9;
   border-radius: 3px;
@@ -1817,5 +1822,14 @@ ul.navbar-left a > i {
   bottom: 10px;
   right: 10px;
   color: #30CCBE;
+}
+
+.application-box{
+  margin: 5% 25%;
+  background-color:#fff !important;
+}
+
+.appli-section{
+  background-color: #fff !important;
 }
 
