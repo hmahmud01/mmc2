@@ -1833,3 +1833,33 @@ ul.navbar-left a > i {
   background-color: #fff !important;
 }
 
+.wrapper {
+  margin: 91px auto;
+}
+
+.f-18{
+  font-size: 18px;
+}
+
+.bank-hr{
+  border: 1px solid #30CCBE;
+  width: 100%;
+}
+
+.bank-box {
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+
+.bank-box-title{
+  margin: 8px auto;
+}
+
+.bank-section{
+  margin: 12px;
+}
+
+.q-block{
+  margin: 10px 2px;
+}
